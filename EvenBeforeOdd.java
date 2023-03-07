@@ -18,8 +18,6 @@ public class EvenBeforeOdd {
 		System.out.println("After the array is: " + Arrays.toString(example));
 	}
 
-
-
 	public static void orderArray(int[] givenArray) {
 		for(int idx = 0; idx < givenArray.length; idx++) {
 			int currentValue = givenArray[idx];
